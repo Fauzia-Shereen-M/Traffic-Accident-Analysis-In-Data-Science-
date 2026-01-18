@@ -1,0 +1,11 @@
+Installation separately:
+Python 3.9+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+streamlit (for dashboard)
+
+Install once:
+pip install pandas numpy matplotlib seaborn scikit-learn streamlit

@@ -94,6 +94,7 @@ An interactive dashboard was built using **Streamlit** to visualize accident ins
 🔗 **Live Dashboard:**  
 https://fauzia-shereen-m-traffic-accident-analysis-in-data-s-app-v4btz0.streamlit.app/
 
+
 🔗 **Dashboard Source Code:**  
 https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-
 ---
@@ -104,8 +105,9 @@ https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-
 Traffic-Accident-Analysis/
 │
 ├── traffic_accident_full_kaggle_style_dataset.csv
-├── traffic_accident_analysis.py
-├── dashboard.py
+├── PROJECT.ipynb
+├── PROJECT_requirement.txt
+├── app.py
 ├── README.md
 └── requirements.txt
 ```
@@ -122,16 +124,17 @@ git clone https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-
 2. Install required packages
 ```bash
 pip install -r requirements.txt
+pip install -r PROJECT_requirement.txt
 ```
 
 3. Run analysis script
 ```bash
-python traffic_accident_analysis.py
+python PROJECT.ipynb
 ```
 
 4. Launch Streamlit dashboard
 ```bash
-streamlit run dashboard.py
+streamlit run app.py
 ```
 
 ---

@@ -143,17 +143,20 @@ Traffic-Accident-Analysis/
 ## ▶️ How to Run the Project 1. Clone the repository
 bash
 git clone https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-.git
+
 2. Install required packages
 bash
 pip install -r requirements.txt
 pip install -r PROJECT_requirement.txt
+
 3. Run analysis script
 bash
 python PROJECT.ipynb
+
 4. Launch Streamlit dashboard
 bash
 streamlit run app.py
----
+
 
 ## 🚀 Future Scope
 - Integration of real-time traffic and weather data

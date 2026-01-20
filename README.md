@@ -138,43 +138,38 @@ Traffic-Accident-Analysis/
 └── requirements.txt
 
 
-## ▶️ How to Run the Project
 
-1️⃣ Clone the Repository
-```bash
+--- 
+## ▶️ How to Run the Project 1. Clone the repository
+bash
 git clone https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-.git
-
-2️⃣ Install Required Packages
+2. Install required packages
+bash
 pip install -r requirements.txt
 pip install -r PROJECT_requirement.txt
-
-3️⃣ Run the Analysis Notebook
+3. Run analysis script
+bash
 python PROJECT.ipynb
-
-4️⃣ Launch the Streamlit Dashboard
+4. Launch Streamlit dashboard
+bash
 streamlit run app.py
+---
 
+## 🚀 Future Scope
+- Integration of real-time traffic and weather data
+- GIS-based accident hotspot mapping
+- Use of advanced ML/DL models for severity prediction
+- Adoption by traffic authorities for safety planning
 
+---
 
-🚀 Future Scope
+## 👤 Author
 
-Integration of real-time traffic and weather data
-
-GIS-based accident hotspot mapping
-
-Use of advanced Machine Learning and Deep Learning models for severity prediction
-
-Adoption by traffic authorities for road safety planning and policy-making
-
-
-
-👤 Author
-
-Fauzia Shereen M
+**Fauzia Shereen M**
 Data Science & Machine Learning Project
 
-📜 License
+---
 
-This project is intended for academic and educational purposes only.
+## 📜 License
 
-⭐ If you find this project useful, feel free to star the repository!
+This project is intended for **academic and educational purposes**.

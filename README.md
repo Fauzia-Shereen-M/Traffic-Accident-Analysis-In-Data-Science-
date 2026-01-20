@@ -139,7 +139,7 @@ python PROJECT.ipynb
 streamlit run app.py
 ```
 
-##🔮 Predictive Modeling (Text-Based Output)
+🔮 Predictive Modeling (Text-Based Output)
 
 This module performs predictive analysis of traffic accidents using historical data. A Logistic Regression model is trained to classify accident severity into Severe/Fatal or Minor/Safe based on numerical features such as Injuries and Fatalities.
 

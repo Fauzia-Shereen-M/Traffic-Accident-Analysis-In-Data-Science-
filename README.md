@@ -1,140 +1,132 @@
-🚦 Traffic Accident Analysis Project
+# 🚦 Traffic Accident Analysis Project
 
-An end-to-end Data Analysis, Visualization, and Machine Learning project focused on understanding traffic accident patterns and predicting accident-related conditions using real-world–style traffic accident data.
-The project includes Exploratory Data Analysis (EDA), feature engineering, machine learning modeling, and an interactive Streamlit dashboard.
+An end-to-end **Data Analysis, Visualization, and Machine Learning project** focused on understanding traffic accident patterns and predicting accident-related conditions using real-world–style traffic accident data.  
+The project includes **Exploratory Data Analysis (EDA), feature engineering, machine learning modeling, and an interactive Streamlit dashboard**.
 
-📌 Project Overview
+---
+
+## 📌 Project Overview
 
 Road traffic accidents are a major public safety concern worldwide. This project analyzes traffic accident data to:
 
-Identify accident patterns and high-risk conditions
+- Identify accident patterns and high-risk conditions  
+- Visualize accident trends using interactive dashboards  
+- Apply machine learning techniques to predict accident-related conditions (Day vs Night)  
 
-Visualize accident trends using interactive dashboards
+The project follows a complete **data science lifecycle**, from data collection and preprocessing to model evaluation and deployment.
 
-Apply machine learning techniques to predict accident-related conditions (Day vs Night)
+---
 
-The project follows a complete data science lifecycle, starting from data collection and preprocessing to model evaluation and deployment.
+## 🧭 Project Workflow
 
-🧭 Project Workflow
+**Data Collection → Data Cleaning → Exploratory Data Analysis → Feature Engineering → Visualization Dashboard → Machine Learning Model → Evaluation**
 
-Data Collection → Data Cleaning → Exploratory Data Analysis → Feature Engineering → Visualization Dashboard → Machine Learning Model → Evaluation
+<p align="center">
+  <img width="376" height="1172" alt="Project Workflow" src="https://github.com/user-attachments/assets/53cbb6a6-e1ce-457a-bb24-e9b15626b542" />
+</p>
 
-<p align="center"> <img width="376" height="1172" alt="Project Workflow" src="https://github.com/user-attachments/assets/53cbb6a6-e1ce-457a-bb24-e9b15626b542" /> </p>
-📂 Dataset Information
+---
 
-Source: Kaggle-style synthetic traffic accident dataset
+## 📂 Dataset Information
 
-Format: CSV
+- **Source:** Kaggle-style synthetic traffic accident dataset  
+- **Format:** CSV  
+- **Type:** Structured tabular data  
 
-Type: Structured tabular data
+### Dataset Features
+- Accident details (City, State, Date)  
+- Environmental factors (Weather, Road Condition)  
+- Severity indicators (Injuries, Fatalities)  
+- Time-related attributes (Month, Sunrise/Sunset)  
 
-Dataset Features:
+---
 
-Accident details (City, State, Date)
+## 🛠️ Technologies Used
 
-Environmental factors (Weather, Road Condition)
+### Programming & Analysis
+- Python 3.x  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
 
-Severity indicators (Injuries, Fatalities)
+### Visualization & Deployment
+- Streamlit  
+- Graphviz (for workflow visualization)  
 
-Time-related attributes (Month, Sunrise/Sunset)
+---
 
-🛠️ Technologies Used
-Programming & Analysis
-
-Python 3.x
-
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-scikit-learn
-
-Visualization & Deployment
-
-Streamlit
-
-Graphviz (for workflow visualization)
-
-📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 The following analyses and visualizations were performed:
 
-Accidents by City
+- Accidents by City  
+- Accident Severity Distribution (Donut Chart)  
+- Accidents by Weather Condition  
+- Accident Severity Trend Over Time  
+- Severity Probability by Road Condition  
 
-Accident Severity Distribution (Donut Chart)
+These analyses help uncover hidden patterns and risk factors associated with traffic accidents.
 
-Accidents by Weather Condition
+---
 
-Accident Severity Trend Over Time
+## ⚙️ Feature Engineering
 
-Severity Probability by Road Condition
+- Creation of `Severity_Label` based on injuries and fatalities  
+- Extraction of `Month` from accident date  
+- Selection of numerical features for model training  
+- Preparation of target variable for classification  
 
-These visualizations help uncover hidden patterns and risk factors associated with traffic accidents.
+---
 
-⚙️ Feature Engineering
+## 🤖 Machine Learning Model
 
-Creation of Severity_Label based on injuries and fatalities
+- **Algorithm Used:** Logistic Regression  
+- **Problem Type:** Binary Classification (Day vs Night)  
 
-Extraction of Month from accident date
+### Preprocessing Steps
+- Train–Test Split (80:20)  
+- Feature Scaling using StandardScaler  
 
-Selection of numerical features for model training
+### 📈 Model Evaluation
+- Accuracy Score  
+- Confusion Matrix  
+- Classification Report  
 
-Preparation of target variables for classification
+---
 
-🤖 Machine Learning Model
+## 🔮 Predictive Modeling (Text-Based Output)
 
-Algorithm Used: Logistic Regression
+This module performs **predictive analysis of traffic accidents** using historical data. A **Logistic Regression model** is trained to classify accident severity into **Severe/Fatal** or **Minor/Safe** based on numerical features such as **Injuries** and **Fatalities**.
 
-Problem Type: Binary Classification (Day vs Night)
+To improve interpretability, machine learning predictions are combined with **rule-based conditional logic and weather conditions** to generate **clear, text-based risk predictions**.
 
-Preprocessing Steps:
+### Risk Levels Generated
+- Very Low Risk  
+- Low Risk  
+- Moderate Risk  
+- High Risk  
+- Very High Risk  
 
-Train–Test Split (80:20)
+No visualizations are used in this module, making it suitable for **decision-support systems and future road safety planning**.
 
-Feature Scaling using StandardScaler
+---
 
-📈 Model Evaluation
+## 🌐 Interactive Dashboard
 
-Accuracy Score
+An interactive dashboard was developed using **Streamlit** to visualize accident insights dynamically.
 
-Confusion Matrix
-
-Classification Report
-
-🔮 Predictive Modeling (Text-Based Output)
-
-This module performs predictive analysis of traffic accidents using historical data. A Logistic Regression model is trained to classify accident severity into Severe/Fatal or Minor/Safe based on numerical features such as Injuries and Fatalities.
-
-To improve interpretability, the machine learning output is combined with rule-based conditional logic and weather conditions to generate clear, text-based risk predictions.
-User inputs (injuries, fatalities, and weather) produce risk levels such as:
-
-Very Low Risk
-
-Low Risk
-
-Moderate Risk
-
-High Risk
-
-Very High Risk
-
-No visualizations are used in this module, making it suitable for decision-support and future risk prediction.
-
-🌐 Interactive Dashboard
-
-An interactive dashboard was developed using Streamlit to visualize accident insights dynamically.
-
-🔗 Live Dashboard:
+🔗 **Live Dashboard**  
 https://fauzia-shereen-m-traffic-accident-analysis-in-data-s-app-v4btz0.streamlit.app/
 
-🔗 Dashboard Source Code:
+🔗 **Dashboard Source Code**  
 https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
 Traffic-Accident-Analysis/
 │
 ├── traffic_accident_full_kaggle_style_dataset.csv
@@ -143,9 +135,12 @@ Traffic-Accident-Analysis/
 ├── app.py
 ├── README.md
 └── requirements.txt
+---
 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
+
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-.git
 
 2️⃣ Install Required Packages
@@ -158,6 +153,8 @@ python PROJECT.ipynb
 4️⃣ Launch the Streamlit Dashboard
 streamlit run app.py
 
+
+
 🚀 Future Scope
 
 Integration of real-time traffic and weather data
@@ -167,6 +164,8 @@ GIS-based accident hotspot mapping
 Use of advanced Machine Learning and Deep Learning models for severity prediction
 
 Adoption by traffic authorities for road safety planning and policy-making
+
+
 
 👤 Author
 

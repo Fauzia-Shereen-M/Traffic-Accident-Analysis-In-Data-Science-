@@ -136,11 +136,6 @@ Traffic-Accident-Analysis/
 └── requirements.txt
 
 
-
-
----
-
-
 --- 
 ## ▶️ How to Run the Project 
 
@@ -161,6 +156,7 @@ python PROJECT.ipynb
 bash
 streamlit run app.py
 
+---
 
 ## 🚀 Future Scope
 - Integration of real-time traffic and weather data

@@ -126,6 +126,7 @@ https://github.com/Fauzia-Shereen-M/Traffic-Accident-Analysis-In-Data-Science-
 ---
 
 ## 📁 Project Structure
+
 Traffic-Accident-Analysis/
 │
 ├── traffic_accident_full_kaggle_style_dataset.csv
